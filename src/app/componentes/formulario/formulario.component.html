@@ -1,0 +1,48 @@
+<body background="../../../assets/img/FONDO_SUBPAGINAS.jpeg">
+  <div class="container">
+      <article>
+        <h2 class="fw-bolder">______________________________________</h2>
+            <h1 class="fw-bolder fst-italic">REGISTRO</h1> <br>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+                        <form id="miForm"  autocomplete="off">
+                          <h5 class="fst-italic">¡Hola!, bienvenido a nuestro formulario el cual te registrarias para el ingreso a nuestra biblioteca, por favor digiteme los datos pertinentes, muchisimas gracias.</h5> <br>
+      
+                          <label class="fw-bolder fst-italic">NOMBRES</label> <br>
+                        <input type="text" class="form-control" id="txtnombre"  > <br>  
+                        
+                        <label class="fw-bolder fst-italic">APELLIDOS</label> <br>
+                        <input type="text" class="form-control" id="txtapellido" > <br>
+                        
+                        <label class="fw-bolder fst-italic">CEDULA</label> <br>
+                        <input type="text" class="form-control" id="txtcedula" > <br>
+
+                        <label class="fw-bolder fst-italic">CORREO ELECTRONICO</label> <br>
+                        <input type="email" class="form-control" id="txtemail"> <br> 
+  
+                        <label class="fw-bolder fst-italic"> CONTRASEÑA</label> <br>
+                        <input type="password" class="form-control" id="txtcontraseña"><br>
+      
+                          <button type="button" id="btnagregar" class="btn btn-primary fw-bolder fst-italic" onclick="procesar()" >Registrar</button>
+                          <button type="button" id="btneditar" class="btn btn-warning fw-bolder fst-italic" onclick="actualizarfila()" >Editar</button>
+                        
+                          </form>
+                 </div>
+                 <h2 class="fw-bolder fst-italic">______________________________________</h2>
+                 <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+                     
+                 </div>
+             </div>
+             <br><br>
+             <div id="cuadro" style="display: none">
+          
+                <table class="table table-hover table-dark fst-italic" id="mitabla">
+                     <tr><th>ID</th> <th>Nombre</th><th>Apellido</th><th>Cedula</th> <th>Email</th> <th>Contraseña</th>  <th class="text-center">Opcion</th></tr>
+            
+             </table>
+            </div>
+            
+            <h2 class="fw-bolder fst-italic text-center"> <a href="../index.html">Regresar a la pagina principal</a></h2> 
+      </article>
+  </div>  
+</body>

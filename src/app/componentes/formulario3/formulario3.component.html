@@ -1,0 +1,61 @@
+<body background="../../../assets/img/FONDO_SUBPAGINAS.jpeg">
+    <div class="container">
+        <article>
+            <h2 class="fw-bolder">______________________________________</h2>
+            <h1 class="fw-bolder fst-italic">SALA DE LECTURA</h1> <br>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+                        <form id="miForm"  autocomplete="off">
+                            <h5 class="fst-italic">Contamos con 51 puesto de lectura, pero actualmente solo disponemos de 10 puesto de lectura, por la situacion del covid.</h5> <br>
+                                <label class="fw-bolder fst-italic">PUESTO</label> <br>
+                                <select class="form-select fst-italic" id="txtpuesto">
+                                  <option selected>Puesto...</option>
+                                  <option value="5">5</option>
+                                  <option value="10">10</option>
+                                  <option value="15">15</option>
+                                  <option value="20">20</option>
+                                  <option value="25">25</option>
+                                  <option value="30">30</option>
+                                  <option value="35">35</option>
+                                  <option value="40">40</option>
+                                  <option value="45">45</option>
+                                  <option value="50">50</option>
+                                </select><br> 
+                                
+                                <label class="fw-bolder fst-italic">HORARIO</label> <br>
+                                <select class="form-select fst-italic" id="txthorario">
+                                    <option selected>Horario...</option>
+                                    <option value="7 am">7 am</option>
+                                    <option value="10 am">10 am</option>
+                                    <option value="1 pm">1 pm</option>
+                                    <option value="4 pm">4 pm</option>
+                                    <option value="7 pm">7 pm</option>
+                                    <option value="10 pm">10 pm</option>
+                                  </select><br> 
+                
+                         
+      
+                          <button type="button" id="btnagregar" class="btn btn-primary fw-bolder fst-italic" onclick="procesar()" >Solicitar ingreso</button>
+                          <button type="button" id="btneditar" class="btn btn-warning fw-bolder fst-italic" onclick="actualizarfila()" >Editar</button>
+                        
+                          </form>
+                 </div>
+                 <h2 class="fw-bolder fst-italic">______________________________________</h2>
+                 <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-6  ">
+                     
+                 </div>
+             </div>
+             <br><br>
+             <div id="cuadro" style="display: none">
+          
+                <table class="table table-hover table-dark fst-italic" id="mitabla">
+                     <tr><th>ID</th> <th>Puesto</th><th>Horario</th> <th class="text-center">Opcion</th></tr>
+            
+             </table>
+            </div>
+            
+                <br>
+               <h2 class="fw-bolder fst-italic text-center"> <a href="../index.html">Regesar a la pagina principal</a></h2>    
+        </article>    
+    </div>        
+</body>
